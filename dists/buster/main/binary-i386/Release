@@ -1,0 +1,5 @@
+Archive: testing
+Component: main
+Origin: incoming
+Architecture: i386
+Description: Incoming repository used by the CI

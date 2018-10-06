@@ -1,0 +1,5 @@
+Archive: testing
+Component: main
+Origin: incoming
+Architecture: amd64
+Description: Incoming repository used by the CI

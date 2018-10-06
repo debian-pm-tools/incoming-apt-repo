@@ -1,0 +1,5 @@
+Archive: testing
+Component: main
+Origin: incoming
+Architecture: armhf
+Description: Incoming repository used by the CI
