@@ -1,0 +1,27 @@
+Package: android-headers
+Version: 1:7.1-4caf1
+Architecture: all
+Maintainer: Rohan Garg <rohan@kde.org>
+Installed-Size: 2879
+Conflicts: android-libandroidfw-dev, android-libbacktrace-dev, android-libbase-dev, android-libcutils-dev, android-libdex-dev, android-libetc1-dev, android-libext4-utils-dev, android-libf2fs-utils-dev, android-liblog-dev, android-libnativehelper-dev, android-libselinux-dev, android-libsparse-dev, android-libunwind-dev, android-libutils-dev, android-libziparchive-dev, android-platform-frameworks-native-headers, android-platform-libcore-headers, android-platform-system-core-headers
+Breaks: android-libandroidfw-dev, android-libbacktrace-dev, android-libbase-dev, android-libcutils-dev, android-libdex-dev, android-libetc1-dev, android-libext4-utils-dev, android-libf2fs-utils-dev, android-liblog-dev, android-libnativehelper-dev, android-libselinux-dev, android-libsparse-dev, android-libunwind-dev, android-libutils-dev, android-libziparchive-dev, android-platform-frameworks-native-headers, android-platform-libcore-headers, android-platform-system-core-headers
+Multi-Arch: foreign
+Homepage: https://github.com/Halium/android-headers
+Priority: optional
+Section: libs
+Filename: pool/main/a/android-headers/android-headers_7.1-4caf1_all.deb
+Size: 407452
+SHA256: ab3c1f7e9dc6976cb2cb9be8f7967fa9985d4d4f75fcca9968bcafa08a673762
+SHA1: 73fd4225ce01845537ce6bf55d09ab4c6ef339d4
+MD5sum: 1b41197d6d569da8f96dec28e589ad35
+Description: Android Platform Headers from AOSP releases
+ Android NDK provided by Google contains subset of AOSP platform
+ headers which are deemed "external interface" by Google. However,
+ writing advanced software for Android necessitates access to complete
+ platform. Many aspects of it change, sometimes drastically, between
+ releases, so compiling user source code against platform headers for
+ different releases is required (e.g. for libhybris).
+ .
+ This package provides the platform development headers for core components
+ of LineageOS, for the 7.1 release.
+
