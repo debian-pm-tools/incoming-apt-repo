@@ -3,5 +3,5 @@ Codename: buster
 Suite: testing
 Architectures: armhf arm64 amd64 i386 source
 Components: main
-Description: Incoming repository used by the CI
+Description: caf incoming repository used by the CI
 Update: upstream
