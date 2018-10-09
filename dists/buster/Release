@@ -1,13 +1,13 @@
 Origin: incoming
 Suite: testing
 Codename: buster
-Date: Tue, 09 Oct 2018 15:43:04 UTC
+Date: Tue, 09 Oct 2018 16:03:03 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: caf incoming repository used by the CI
 MD5Sum:
- 90a0e364b12d5ca9ba32dc9a849862b1 2011 main/binary-armhf/Packages
- af77b2e77eaa0a814bc00cdb2e8fd21e 811 main/binary-armhf/Packages.gz
+ a363e8581fc401e1eddd5abe9434c96d 18773 main/binary-armhf/Packages
+ e2269347cb0c5aeb04d4f409588124d8 5261 main/binary-armhf/Packages.gz
  4c65f4f7ad7aae149bb06da9f23f8371 122 main/binary-armhf/Release
  90a0e364b12d5ca9ba32dc9a849862b1 2011 main/binary-arm64/Packages
  af77b2e77eaa0a814bc00cdb2e8fd21e 811 main/binary-arm64/Packages.gz
@@ -22,8 +22,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  e791ec05efa2ce76c20def7478d3ea93 123 main/source/Release
 SHA1:
- b6a6815711288cba411960dd91def958bcb381b4 2011 main/binary-armhf/Packages
- 11fe000de6ef9fdb93847a38fbca000cbe37ecff 811 main/binary-armhf/Packages.gz
+ 96f23468d4c7259f130475752f173bb222f79f80 18773 main/binary-armhf/Packages
+ 827dcc996a3723232b4504e871c141b1873408b1 5261 main/binary-armhf/Packages.gz
  8dd3b105a482c0f11a4e4457a6b74270d6c3b045 122 main/binary-armhf/Release
  b6a6815711288cba411960dd91def958bcb381b4 2011 main/binary-arm64/Packages
  11fe000de6ef9fdb93847a38fbca000cbe37ecff 811 main/binary-arm64/Packages.gz
@@ -38,8 +38,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  53c7fe72820cf5668e7f30f585ab2ad5e6385c61 123 main/source/Release
 SHA256:
- 724748378a951fd694d0ae37674648dbcc522c87cc342b409e8732357b03cb3e 2011 main/binary-armhf/Packages
- 15eeddf0479c9baf836bdab38efb7a87e2a6b3dd0a2c452f19b06ca6be8aea7a 811 main/binary-armhf/Packages.gz
+ 143238a0959883f7917c06c0a8f878c9e2979e354f369f68d36fc42e6d14c8c9 18773 main/binary-armhf/Packages
+ cb66ac3721eea7ae4e1f01e10783f4c9aecdae86ab44763adbe0c06d02d5e183 5261 main/binary-armhf/Packages.gz
  c2d4b0dd125b5d7644c8a4e9e264a3be05fc9ccb59a66a4c2025958663a9ac1d 122 main/binary-armhf/Release
  724748378a951fd694d0ae37674648dbcc522c87cc342b409e8732357b03cb3e 2011 main/binary-arm64/Packages
  15eeddf0479c9baf836bdab38efb7a87e2a6b3dd0a2c452f19b06ca6be8aea7a 811 main/binary-arm64/Packages.gz
