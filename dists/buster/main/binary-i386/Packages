@@ -1,0 +1,51 @@
+Package: kaidan
+Version: 0.3.2+git20181020-1
+Architecture: i386
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 801
+Depends: kaidan-data, qml-module-org-kde-kirigami2, qml-module-qtquick-controls2, libc6 (>= 2.4), libgcc1 (>= 1:4.2), libgloox17, libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.8.0), libstdc++6 (>= 5.2)
+Recommends: libnotify-bin
+Homepage: https://kaidan.im
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20181020-1_i386.deb
+Size: 213740
+SHA256: 7f23f7b2f6698d196e0f9cbbd396731a42aa56d1400b62588e085eb53a18767c
+SHA1: 6531f9434bd6c153e28d1dae4e8440f6b48d981e
+MD5sum: 5caf931c2bc3bbb6282e74d071affc9c
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
+ .
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+
+Package: kaidan-data
+Source: kaidan
+Version: 0.3.2+git20181020-1
+Architecture: all
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 103
+Homepage: https://kaidan.im
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20181020-1_all.deb
+Size: 47372
+SHA256: baf7b34b51e40af76ea082ee75019b4a4ee31e8fd70e620b26305396fa7848fd
+SHA1: 77df1c4f4e7ce4193dc7291ef974b0ade7c90a73
+MD5sum: 721c8cb264ca020df40eec949a52fac6
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
+ .
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+ .
+ This package contains architecture independant files.
+
