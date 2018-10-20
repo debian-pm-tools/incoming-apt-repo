@@ -1,7 +1,7 @@
 Origin: incoming
 Suite: testing
 Codename: buster
-Date: Sat, 20 Oct 2018 15:01:22 UTC
+Date: Sat, 20 Oct 2018 15:08:43 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Incoming repository used by the CI
@@ -18,8 +18,8 @@ MD5Sum:
  3ea7dcdf5452d07a6f52a4d83c1a7dfa 2329 main/binary-i386/Packages
  4309ac58123643dc97d3e28b9eea91ff 986 main/binary-i386/Packages.gz
  876dc13d9e6b25f6a13515ba66a136ad 117 main/binary-i386/Release
- 82b829bc33b58e157d3a5d3364360c30 8069 main/source/Sources
- 0ace5477370e5792894eca479bf951b5 2724 main/source/Sources.gz
+ bc8752ed9173eb0b4edfeb7dc0a8e57e 9617 main/source/Sources
+ a67c0cda3d6927ee03b64d95094cb1c9 3072 main/source/Sources.gz
  71ceea3a88f71a84862a12c70c2f6bb1 119 main/source/Release
 SHA1:
  922f820b7dc969479b405e167441d5c77ae6e3ae 3474 main/binary-armhf/Packages
@@ -34,8 +34,8 @@ SHA1:
  b00bfd08c44fb8b25502b91ada808369b4aa8d28 2329 main/binary-i386/Packages
  b7391530a307e33caf56ae299d951c2cb5a4c7a1 986 main/binary-i386/Packages.gz
  d5e149dfb8bc2d44cb2fdd7531c58eb3d53838f6 117 main/binary-i386/Release
- cc67870c3ee4a6a42adedce99edee2b52b101669 8069 main/source/Sources
- 4f249d39e63e7bbc71a828e02b363e2abb583be6 2724 main/source/Sources.gz
+ be156f995a3028dd5adc0f1dc2ecc48f787bf385 9617 main/source/Sources
+ 22b382b0333d6cf3a515310a074c82e3abea7812 3072 main/source/Sources.gz
  12d87366a91580319072dc6794b6b76f1b8548e3 119 main/source/Release
 SHA256:
  5efce4971f0d3d34b1d3a3cae6549cc3c59cef86e5456a320fa98ea99f42cfc3 3474 main/binary-armhf/Packages
@@ -50,6 +50,6 @@ SHA256:
  0c29f726902eb265fec755b67af7cd1dd25293acd0cbd792b302b4431e6d8125 2329 main/binary-i386/Packages
  8e855579f1568270e7f0909f16175b30791e0503fc19daaa5c0eb7b405bf76a6 986 main/binary-i386/Packages.gz
  a63ff2c0c1b536423854598c49ea3b8eccdc1cc96d177b251c0c4a2d4ce6c8cc 117 main/binary-i386/Release
- e739aba75981298f5892b25b2bcac9e58875c7348356ad10e65001df59cc8e6d 8069 main/source/Sources
- c8b918a899aec48eefe13cd22142fcd8c275b20cac7044e367697f8d21d1432b 2724 main/source/Sources.gz
+ 6b4d3b6a14fe34a9c9b6ee44919fd6f1537e3a486ab5612590f270acd0d3d41c 9617 main/source/Sources
+ eead01a376ab42d0b97183f7aa6b9334bb83a57e72cb4f4e490495fc968677a5 3072 main/source/Sources.gz
  17a8d42c3482e7880a7311d3fe5ba381968659caa7336d8cfafba98be85bda09 119 main/source/Release
