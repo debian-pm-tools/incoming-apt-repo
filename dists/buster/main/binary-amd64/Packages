@@ -96,6 +96,31 @@ Description: KDE window manager data files
  .
  This package contains the data files
 
+Package: libmauikit
+Source: mauikit
+Version: 0+git20181020-1
+Architecture: amd64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 336
+Depends: kio, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webengine5 (>= 5.7.1), libqt5webenginecore5 (>= 5.7.1), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://maui-project.org/
+Priority: optional
+Section: lib
+Filename: pool/main/m/mauikit/libmauikit_0+git20181020-1_amd64.deb
+Size: 93852
+SHA256: 0badcacd848f528baf2c2565a95790da76aa3f5e341dab56e5efed65ed89d6f7
+SHA1: 81b400aed1b9b537d81db85e87fe7db3e68bfff9
+MD5sum: 84e975576c2cbb77bf00f132ea18d40f
+Description: Kit for developing MAUI Apps.
+ A set of templated controls and tools based off QQC2 and Kirigami
+ shared among the Maui set of applications
+ .
+ Maui Kit helps to quickly build UIs that follow the Maui HIG
+ and bring ready to go tools for different platforms,
+ such as Android and Linux
+ .
+ This package contains the mauikit shared library
+
 Package: libpulse-dev
 Source: pulseaudio
 Version: 12.2-2
@@ -212,6 +237,31 @@ SHA1: 65f73b04970bc335e64d398e63e9c61e4d560197
 MD5sum: 82df46552b0f4d37204a904c23cea829
 Description: Simple media player based on the Gstreamer Framework and
  Plasma aswell as QtQuick.
+
+Package: mauikit-dev
+Source: mauikit
+Version: 0+git20181020-1
+Architecture: amd64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 67
+Depends: libmauikit, qml-module-org-kde-mauikit
+Homepage: https://maui-project.org/
+Priority: optional
+Section: lib
+Filename: pool/main/m/mauikit/mauikit-dev_0+git20181020-1_amd64.deb
+Size: 11616
+SHA256: 8a0286ab5d9e3d73e2bc6ab18b87673c2475bad2967a1510530ad61740321800
+SHA1: 79565fef00ecd024941cdb00bacf882a52af5658
+MD5sum: 40eed18d7379b2d2785ef87d12ed2d7f
+Description: Kit for developing MAUI Apps.
+ A set of templated controls and tools based off QQC2 and Kirigami
+ shared among the Maui set of applications
+ .
+ Maui Kit helps to quickly build UIs that follow the Maui HIG
+ and bring ready to go tools for different platforms,
+ such as Android and Linux
+ .
+ This package contains mauikit development files
 
 Package: pix
 Version: 0+git20181020-1
@@ -497,6 +547,31 @@ Description: Command line tools for the PulseAudio sound server
    padsp - /dev/dsp wrapper to transparently support OSS applications.
    pax11publish - Store/retrieve PulseAudio default server/sink/source
                   settings in the X11 root window.
+
+Package: qml-module-org-kde-mauikit
+Source: mauikit
+Version: 0+git20181020-1
+Architecture: amd64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 698
+Depends: libmauikit, qml-module-org-kde-kirigami2, qml-module-qmltermwidget, qml-module-qtquick-controls2, kio, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webengine5 (>= 5.7.1), libqt5webenginecore5 (>= 5.7.1), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://maui-project.org/
+Priority: optional
+Section: lib
+Filename: pool/main/m/mauikit/qml-module-org-kde-mauikit_0+git20181020-1_amd64.deb
+Size: 138804
+SHA256: 3e7dfb24e82d783e8a8b30c9b300d4a3e25b4253b2903074211da5df2a7b8625
+SHA1: b5259209bff9fb639fc4e908a4588aabdc7e9ceb
+MD5sum: 2496e8de9775c8c91fe06e482750ac5e
+Description: Kit for developing MAUI Apps.
+ A set of templated controls and tools based off QQC2 and Kirigami
+ shared among the Maui set of applications
+ .
+ Maui Kit helps to quickly build UIs that follow the Maui HIG
+ and bring ready to go tools for different platforms,
+ such as Android and Linux
+ .
+ This package contains the mauikit qml module
 
 Package: vvave
 Version: 1.2+git20181020-1
