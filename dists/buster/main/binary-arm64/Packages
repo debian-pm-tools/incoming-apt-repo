@@ -1,3 +1,28 @@
+Package: kaidan
+Version: 0.3.2+git20181020-1
+Architecture: arm64
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 752
+Depends: kaidan-data, qml-module-org-kde-kirigami2, qml-module-qtquick-controls2, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgloox17, libqt5core5a (>= 5.8.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.8.0), libstdc++6 (>= 5.2)
+Recommends: libnotify-bin
+Homepage: https://kaidan.im
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20181020-1_arm64.deb
+Size: 180888
+SHA256: df4b8c1187e7129941c50e5ce589eb7a6250e4ea74ac9b2205cba97e416e27a2
+SHA1: 903f9b3715e5805ac607f326e04f1893b6657464
+MD5sum: 47fb6e99af7117ad72deaa76e4160c7e
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
+ .
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+
 Package: kaidan-data
 Source: kaidan
 Version: 0.3.2+git20181020-1
