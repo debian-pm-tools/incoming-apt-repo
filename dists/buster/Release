@@ -1,7 +1,7 @@
 Origin: incoming
 Suite: testing
 Codename: buster
-Date: Sat, 20 Oct 2018 15:08:43 UTC
+Date: Sat, 20 Oct 2018 15:14:09 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Incoming repository used by the CI
@@ -15,8 +15,8 @@ MD5Sum:
  977ca9bc1b08e50be07dfc0d4a579b43 21538 main/binary-amd64/Packages
  9c1464e4862f14ddebe82d8c2017616a 5786 main/binary-amd64/Packages.gz
  dc8600ed92bd383795eff43668549ff6 118 main/binary-amd64/Release
- 3ea7dcdf5452d07a6f52a4d83c1a7dfa 2329 main/binary-i386/Packages
- 4309ac58123643dc97d3e28b9eea91ff 986 main/binary-i386/Packages.gz
+ 99daf762de8e4abf49b925a9e1eb5a70 18749 main/binary-i386/Packages
+ 09b8c801f810aafb3dee08f98c7f7234 4789 main/binary-i386/Packages.gz
  876dc13d9e6b25f6a13515ba66a136ad 117 main/binary-i386/Release
  bc8752ed9173eb0b4edfeb7dc0a8e57e 9617 main/source/Sources
  a67c0cda3d6927ee03b64d95094cb1c9 3072 main/source/Sources.gz
@@ -31,8 +31,8 @@ SHA1:
  93c0dac1b35fbcd33ccc2f33908d2b069f74ddb8 21538 main/binary-amd64/Packages
  8772608461b38360ecceaf396fc79584ec89be8f 5786 main/binary-amd64/Packages.gz
  6503f4af3e9693c731087a316082919328444722 118 main/binary-amd64/Release
- b00bfd08c44fb8b25502b91ada808369b4aa8d28 2329 main/binary-i386/Packages
- b7391530a307e33caf56ae299d951c2cb5a4c7a1 986 main/binary-i386/Packages.gz
+ 00a89fe76dc2dfb67fac980e5fc3f2a3491d7b34 18749 main/binary-i386/Packages
+ 99d63b363ceec88913919ce4597761248e7a772b 4789 main/binary-i386/Packages.gz
  d5e149dfb8bc2d44cb2fdd7531c58eb3d53838f6 117 main/binary-i386/Release
  be156f995a3028dd5adc0f1dc2ecc48f787bf385 9617 main/source/Sources
  22b382b0333d6cf3a515310a074c82e3abea7812 3072 main/source/Sources.gz
@@ -47,8 +47,8 @@ SHA256:
  d98e12218bf284d6cb1cedec356c841eb5f6f1bf7c779ea3ddf6b681115f7281 21538 main/binary-amd64/Packages
  8bbd29bf45af767337a968e2b03c43e409e629f043a4c9b0e318ddf9aee5f512 5786 main/binary-amd64/Packages.gz
  0b5fd55a9a46c1c4da3fb4137fcec9bf69e08229f0f74c477ac1cfd5153227a0 118 main/binary-amd64/Release
- 0c29f726902eb265fec755b67af7cd1dd25293acd0cbd792b302b4431e6d8125 2329 main/binary-i386/Packages
- 8e855579f1568270e7f0909f16175b30791e0503fc19daaa5c0eb7b405bf76a6 986 main/binary-i386/Packages.gz
+ 69b0a020f1706931dc5effb03d30643aac3cc3297d7f1f60ff51a7d345b5ce96 18749 main/binary-i386/Packages
+ 632ae871629658913bcca6aede6825f133043d13c0492a4b5b32bd71a93c34aa 4789 main/binary-i386/Packages.gz
  a63ff2c0c1b536423854598c49ea3b8eccdc1cc96d177b251c0c4a2d4ce6c8cc 117 main/binary-i386/Release
  6b4d3b6a14fe34a9c9b6ee44919fd6f1537e3a486ab5612590f270acd0d3d41c 9617 main/source/Sources
  eead01a376ab42d0b97183f7aa6b9334bb83a57e72cb4f4e490495fc968677a5 3072 main/source/Sources.gz
