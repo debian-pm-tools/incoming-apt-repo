@@ -67,3 +67,32 @@ MD5sum: 82df46552b0f4d37204a904c23cea829
 Description: Simple media player based on the Gstreamer Framework and
  Plasma aswell as QtQuick.
 
+Package: vvave
+Version: 1.2+git20180930-1
+Architecture: amd64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1198
+Depends: qml-module-org-kde-mauikit, youtube-dl, kio, libc6 (>= 2.14), libkf5configcore5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.9.0~beta), libqt5sql5 (>= 5.5.0~), libqt5webengine5 (>= 5.7.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~)
+Homepage: https://github.com/maui-project/vvave
+Priority: optional
+Section: sound
+Filename: pool/main/v/vvave/vvave_1.2+git20180930-1_amd64.deb
+Size: 513960
+SHA256: a89e530c606eeb9b9d4ca1c73220e7da48683c33ba4b9adc35c6a27e01bece61
+SHA1: 198af857a920109949ec84648f7d2c80b5f61e7e
+MD5sum: 6e85a8847989fc6c61ea7830c15f549c
+Description: Tiny Qt VVave Music Player
+ VVave is a tiny Qt music player to keep your favorite songs at hand
+ .
+ VVave will handle your whole music collection, letting you create
+ custom playlists to organize your music.
+ .
+ You can also filter your music by artist, title, album, genre,
+ date and location. VVave lets you vvave-mark your favorite YouTube
+ music videos into your local collection by using the Chromium
+ extension.
+ .
+ Think of VVave as the playlist where all your favorite tracks at
+ the moment are. And when needed you also have an integrated
+ collection manager.
+
