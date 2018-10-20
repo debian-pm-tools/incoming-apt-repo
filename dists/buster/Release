@@ -1,7 +1,7 @@
 Origin: incoming
 Suite: testing
 Codename: buster
-Date: Sat, 20 Oct 2018 13:57:23 UTC
+Date: Sat, 20 Oct 2018 14:36:23 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Incoming repository used by the CI
@@ -18,8 +18,8 @@ MD5Sum:
  3ea7dcdf5452d07a6f52a4d83c1a7dfa 2329 main/binary-i386/Packages
  4309ac58123643dc97d3e28b9eea91ff 986 main/binary-i386/Packages.gz
  876dc13d9e6b25f6a13515ba66a136ad 117 main/binary-i386/Release
- b2707c3ef939b335f06b4ed5a6a197b0 1797 main/source/Sources
- e274e735399fab828912fee726381c11 791 main/source/Sources.gz
+ 9f952a17dd0459b8516799234005ea0c 3483 main/source/Sources
+ 537d4261923eabac3e2fdb7af0a62286 1379 main/source/Sources.gz
  71ceea3a88f71a84862a12c70c2f6bb1 119 main/source/Release
 SHA1:
  922f820b7dc969479b405e167441d5c77ae6e3ae 3474 main/binary-armhf/Packages
@@ -34,8 +34,8 @@ SHA1:
  b00bfd08c44fb8b25502b91ada808369b4aa8d28 2329 main/binary-i386/Packages
  b7391530a307e33caf56ae299d951c2cb5a4c7a1 986 main/binary-i386/Packages.gz
  d5e149dfb8bc2d44cb2fdd7531c58eb3d53838f6 117 main/binary-i386/Release
- 144707f4dce03dbf73c2e2c55c30d16a46c76ce5 1797 main/source/Sources
- 8a563976c806259014eaf7cb6c855f7451d09901 791 main/source/Sources.gz
+ f25cf8f6f2a0f9a2f2b6a81f322176c73215ca23 3483 main/source/Sources
+ e8cdd447b542756bb98ccb8a4d94ec923a8e4607 1379 main/source/Sources.gz
  12d87366a91580319072dc6794b6b76f1b8548e3 119 main/source/Release
 SHA256:
  5efce4971f0d3d34b1d3a3cae6549cc3c59cef86e5456a320fa98ea99f42cfc3 3474 main/binary-armhf/Packages
@@ -50,6 +50,6 @@ SHA256:
  0c29f726902eb265fec755b67af7cd1dd25293acd0cbd792b302b4431e6d8125 2329 main/binary-i386/Packages
  8e855579f1568270e7f0909f16175b30791e0503fc19daaa5c0eb7b405bf76a6 986 main/binary-i386/Packages.gz
  a63ff2c0c1b536423854598c49ea3b8eccdc1cc96d177b251c0c4a2d4ce6c8cc 117 main/binary-i386/Release
- a80851a4d9660e09afa0c652f4dc4f11d2e784cad3bdbb1478d074c1b7895175 1797 main/source/Sources
- b364d5725c8f753d25f82064ce4a905ff64190ac73b6ba397217e02f2246a7f3 791 main/source/Sources.gz
+ cecb00a0ba7c827a5c1a74540cf0fc2b36b2c91b8a4922ee45dcfba8d8b8e34b 3483 main/source/Sources
+ cf08aa56fed2f49f422b1f616a3d371e7e8e0c977ff7968360cc9ae681dca4b9 1379 main/source/Sources.gz
  17a8d42c3482e7880a7311d3fe5ba381968659caa7336d8cfafba98be85bda09 119 main/source/Release
