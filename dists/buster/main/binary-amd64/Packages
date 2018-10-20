@@ -432,19 +432,19 @@ Description: Command line tools for the PulseAudio sound server
                   settings in the X11 root window.
 
 Package: vvave
-Version: 1.2+git20180930-1
+Version: 1.2+git20181020-1
 Architecture: amd64
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1198
+Installed-Size: 1186
 Depends: qml-module-org-kde-mauikit, youtube-dl, kio, libc6 (>= 2.14), libkf5configcore5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.9.0~beta), libqt5sql5 (>= 5.5.0~), libqt5webengine5 (>= 5.7.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~)
 Homepage: https://github.com/maui-project/vvave
 Priority: optional
 Section: sound
-Filename: pool/main/v/vvave/vvave_1.2+git20180930-1_amd64.deb
-Size: 513960
-SHA256: a89e530c606eeb9b9d4ca1c73220e7da48683c33ba4b9adc35c6a27e01bece61
-SHA1: 198af857a920109949ec84648f7d2c80b5f61e7e
-MD5sum: 6e85a8847989fc6c61ea7830c15f549c
+Filename: pool/main/v/vvave/vvave_1.2+git20181020-1_amd64.deb
+Size: 500280
+SHA256: cb2240e9bb086e10a5b7982d77300040e8c157d5a443ef6a9d22bca65054a597
+SHA1: acb07ff03ac811f9816e7fb4f7cf4e0615639762
+MD5sum: ca6b36cda196af97a3ed1b8a0addaf7a
 Description: Tiny Qt VVave Music Player
  VVave is a tiny Qt music player to keep your favorite songs at hand
  .
