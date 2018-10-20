@@ -77,6 +77,105 @@ Description: KDE window manager data files
  .
  This package contains the data files
 
+Package: libpulse-dev
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 471
+Depends: libpulse0 (= 12.2-2), libpulse-mainloop-glib0 (= 12.2-2), libglib2.0-dev
+Multi-Arch: same
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/pulseaudio/libpulse-dev_12.2-2_arm64.deb
+Size: 96988
+SHA256: c366716276f0a9e6857e0864ef5e6b8b8837f06c55bc4439b77a4a52f486545c
+SHA1: 68568560870d5375efdccb52d61bb98bc60ebfe4
+MD5sum: b99c4ed0fd0c3e4a57e7ecd05e07eaad
+Description: PulseAudio client development headers and libraries
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ Headers and libraries for developing applications that access a PulseAudio
+ sound server via PulseAudio's native interface.
+
+Package: libpulse-mainloop-glib0
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 78
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libglib2.0-0 (>= 2.16.0), libpulse0 (= 12.2-2)
+Multi-Arch: same
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/libpulse-mainloop-glib0_12.2-2_arm64.deb
+Size: 36492
+SHA256: 9d985e652337fad4c5b91bcf9ab43b97a9f26693726ca99ae5fd0ab0416d85a4
+SHA1: 959f7a0fcb90e5cc504fc23340acb5706fe06d77
+MD5sum: 121cd21911d637e524a19871099f906f
+Description: PulseAudio client libraries (glib support)
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ Client libraries used by applications that access a PulseAudio sound server
+ via PulseAudio's native interface.
+ .
+ This package adds support for glib2 client applications.
+
+Package: libpulse0
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 904
+Depends: libasyncns0 (>= 0.3), libc6 (>= 2.27), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libice6 (>= 1:1.0.0), libsm6, libsndfile1 (>= 1.0.20), libsystemd0, libwrap0 (>= 7.6-4~), libx11-6, libx11-xcb1, libxcb1, libxtst6
+Suggests: pulseaudio
+Multi-Arch: same
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: libs
+Filename: pool/main/p/pulseaudio/libpulse0_12.2-2_arm64.deb
+Size: 240716
+SHA256: 39bee312ff6bc935e9abbcaeda722e341695204407dc4c0616d6a765fa02664b
+SHA1: 33133c9a51523e123cf38e167bfa5393f82e7a5a
+MD5sum: 54398668cca25f954aabcb1d91d567e7
+Description: PulseAudio client libraries
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ Client libraries used by applications that access a PulseAudio sound server
+ via PulseAudio's native interface.
+
+Package: libpulsedsp
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 105
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libpulse0 (= 12.2-2)
+Multi-Arch: same
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/libpulsedsp_12.2-2_arm64.deb
+Size: 45456
+SHA256: 483aee6a342e5cfa8c88ae7bfbad79cb9c94d8469a54f105e96a59a62cfd5579
+SHA1: bbaa5c77fa03f5292b3bf5cddf00cf454799734b
+MD5sum: 99a80f73da068be4255eea8cbea34f65
+Description: PulseAudio OSS pre-load library
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This package provides the pre-load library used to redirect applications
+ using OSS through pulseaudio.
+
 Package: llsvplayer
 Version: 0.3+git20181020-1
 Architecture: arm64
@@ -94,6 +193,271 @@ SHA1: 4c4d581d50517445132488513fd85bd652d38df7
 MD5sum: b5d074d2ba698729022c7c14985f1ca1
 Description: Simple media player based on the Gstreamer Framework and
  Plasma aswell as QtQuick.
+
+Package: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 6035
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.27), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libgcc1 (>= 1:3.0), libice6 (>= 1:1.0.0), libltdl7 (>= 2.4.6), liborc-0.4-0 (>= 1:0.4.25), libpulse0 (= 12.2-2), libsm6, libsndfile1 (>= 1.0.20), libsoxr0 (>= 0.1.0), libspeexdsp1 (>= 1.2~beta3.2-1), libstdc++6 (>= 4.1.1), libsystemd0, libtdb1 (>= 1.2.7+git20101214), libudev1 (>= 183), libwebrtc-audio-processing1, libx11-6, libx11-xcb1, libxcb1, libxtst6, adduser, lsb-base (>= 3.2-13), libasound2-plugins, pulseaudio-utils
+Recommends: rtkit, libpam-systemd, dbus-user-session
+Suggests: udev, pavumeter, pavucontrol, paman, paprefs
+Multi-Arch: foreign
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio_12.2-2_arm64.deb
+Size: 1013568
+SHA256: 0b07755718d87b11f381b4e9b4866c4111e2387807f411a5b9e482d44d943b7f
+SHA1: 8acef233e227d6c34929d08f034669e35aa56f13
+MD5sum: f61c02762c3e46c36d7c3a005b339a12
+Description: PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ These are some of PulseAudio's features:
+ .
+   * High quality software mixing of multiple audio streams with support for
+     more than one sink/source. May be used to combine multiple sound cards
+     into one (with sample rate adjustment).
+ .
+   * Wide range of supported client libraries. ESD, ALSA, oss, libao and
+     GStreamer client applications are supported as-is. Native PulseAudio
+     plug-ins are also available for xmms and mplayer.
+ .
+   * Good low latency behaviour and very accurate latency measurement for
+     playback and recording. Ability to fully synchronize multiple playback
+     streams.
+ .
+   * Network transparency, allowing an application to play back or record
+     audio on a different machine than the one it is running on.
+ .
+   * Extensible plug-in architecture with plug-ins for jackd, multicast-rtp
+     lirc and avahi, just to name a few.
+ .
+ This package contains the daemon and basic module set.
+
+Package: pulseaudio-dev
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 543
+Depends: pulseaudio (= 12.2-2)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/pulseaudio/pulseaudio-dev_12.2-2_arm64.deb
+Size: 101376
+SHA256: d1a3a307f22d600c2ddd461bebc11265dad91adae315237e6372b634bd721b50
+SHA1: 7b1d75097c2e0e016ab58e338700f83685794b19
+MD5sum: 4fdaf4e21c735353530b42d430b79b4c
+Description: Pulsecore development headers
+
+Package: pulseaudio-equalizer
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 151
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libfftw3-single3 (>= 3.3.5), libpulse0 (= 12.2-2), pulseaudio (= 12.2-2), python, python-pyqt5, python-sip, python-dbus.mainloop.pyqt5, python-dbus
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-equalizer_12.2-2_arm64.deb
+Size: 56184
+SHA256: d6b0826baed00f0345547e9d039d252a3c0e041d904e23c55245f5257cc4e51b
+SHA1: aca000cb8f1a236ea21a5e2d505039043b751908
+MD5sum: dcb82a01ef3f925d8230f87131e4215d
+Description: Equalizer sink module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This package provides an equalizer sink and an interface to configure the
+ equalizer, qpaeq.
+ .
+ The module is called module-equalizer-sink.
+
+Package: pulseaudio-module-bluetooth
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 231
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libpulse0 (= 12.2-2), libsbc1, pulseaudio (= 12.2-2), bluez (>= 5.23)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-bluetooth_12.2-2_arm64.deb
+Size: 78140
+SHA256: 9568fe96efffc8c8abe73a5337a10dee7d5b191aec7ac1d8124eae071c66577e
+SHA1: 99b0ac33ff1d23c36347b9d13233bf1db34c87c2
+MD5sum: 5ea07f5161e4b8096c769a201d9b85a0
+Description: Bluetooth module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to work with bluetooth devices, like headset
+ or audio gateway.
+ .
+ The module is called module-bluetooth
+
+Package: pulseaudio-module-gsettings
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 99
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libglib2.0-0 (>= 2.30.0), libpulse0 (= 12.2-2), pulseaudio (= 12.2-2), dconf-gsettings-backend | gsettings-backend
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-gsettings_12.2-2_arm64.deb
+Size: 38912
+SHA256: 8b7be5584ded266e3baef6c2992c4c6f03916f58daa3b800a3e6e7434e1a6971
+SHA1: f64e8866b0e4254014a44c99ab59ff61951e93b0
+MD5sum: 15e7737f77ffa2d1d79e7e1ee5cbfb85
+Description: GSettings module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to store additional configuration in GSettings.
+ It supersedes the gconf module.
+ .
+ The module is called module-gsettings.
+
+Package: pulseaudio-module-jack
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 115
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpulse0 (= 12.2-2), pulseaudio (= 12.2-2)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-jack_12.2-2_arm64.deb
+Size: 43964
+SHA256: 4f83605ccd8e1579bcab39e7f48723f5bd434ec332edf7017de694d308cfc8ea
+SHA1: 1fd0220bee36c613b05f1d2546e154cc7e6a7680
+MD5sum: 3713c92cd9e0da21c061f22da7dd7941
+Description: jackd modules for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ These modules enables PulseAudio to connect to a jackd daemon.
+ .
+ The modules are called module-jack-sink, module-jack-source.
+
+Package: pulseaudio-module-lirc
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 71
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), liblirc-client0, libpulse0 (= 12.2-2), pulseaudio (= 12.2-2)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-lirc_12.2-2_arm64.deb
+Size: 35020
+SHA256: 00a2460f8404e75fdff484e63c6cc16ee4044a0f70e09035011f12f4966ed24d
+SHA1: 68a97dd07cd759a548ee80c94a0918e916ca9792
+MD5sum: 3a830289c29528c0d23bf86deeb16f34
+Description: lirc module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables the volume of a PulseAudio sink to be controlled when
+ buttons of an infrared remote control are pressed (through LIRC).
+ .
+ The module is called module-lirc.
+
+Package: pulseaudio-module-raop
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 147
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.17), libcap2 (>= 1:2.10), libpulse0 (= 12.2-2), libssl1.1 (>= 1.1.0), pulseaudio (= 12.2-2), pulseaudio-module-zeroconf
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-raop_12.2-2_arm64.deb
+Size: 56904
+SHA256: 6a273874746dc1b88304868212518c79cdc915d256678d15c157f02668aee751
+SHA1: dbb800b17f050d1a9a4e8879b3b93032aa6f83c5
+MD5sum: 916ed2e6f3f15489808d9343e0a1a64e
+Description: RAOP module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to stream audio to an Apple Airport Express.
+
+Package: pulseaudio-module-zeroconf
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 115
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libpulse0 (= 12.2-2), pulseaudio (= 12.2-2), avahi-daemon
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-zeroconf_12.2-2_arm64.deb
+Size: 45696
+SHA256: 7ad8ee290fdf3a7bc8412a37f48ab2bd80c618e7ae592f4291392605012024a4
+SHA1: cc3d351fada8f32a4df4697c8676898a209be991
+MD5sum: d3a6d913085f6ccfabbe6a0b11851481
+Description: Zeroconf module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to publish available sinks and sources via
+ zeroconf (aka. Avahi, mdns).
+ .
+ The module is called module-zeroconf-publish.
+
+Package: pulseaudio-utils
+Source: pulseaudio
+Version: 12.2-2
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 236
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libice6 (>= 1:1.0.0), libpulse0 (= 12.2-2), libsm6, libsndfile1 (>= 1.0.20), libx11-6, libx11-xcb1, libxcb1, libxtst6, libpulsedsp
+Suggests: avahi-daemon, pulseaudio
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-utils_12.2-2_arm64.deb
+Size: 76484
+SHA256: 71ee36e6e605a43d239d378f892d3f436f35f925ffae3e23994f8e6e5e25d682
+SHA1: 2f1181d4d48ee30c5c7f076470eb20f520985c24
+MD5sum: 13bfb3b8e86e790d4f2e937b15db7515
+Description: Command line tools for the PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ These tools provide command line access to various features of the
+ PulseAudio sound server. Included tools are:
+ .
+   paplay - Playback a WAV file via a PulseAudio sink.
+   pacat - Cat raw audio data to a PulseAudio sink.
+   parec - Cat raw audio data from a PulseAudio source.
+   pacmd - Connect to PulseAudio's built-in command line control interface.
+   pactl - Send a control command to a PulseAudio server.
+   padsp - /dev/dsp wrapper to transparently support OSS applications.
+   pax11publish - Store/retrieve PulseAudio default server/sink/source
+                  settings in the X11 root window.
 
 Package: vvave
 Version: 1.2+git20180930-1
