@@ -49,3 +49,21 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
  .
  This package contains architecture independant files.
 
+Package: llsvplayer
+Version: 0.3+git20181020-1
+Architecture: arm64
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Installed-Size: 104
+Depends: qml-module-org-kde-kirigami2, qml-module-org-nemomobile-mpris, qml-module-qt-labs-folderlistmodel, qml-module-qtquick-controls2, qml-module-qtquick-localstorage, qml-module-qtwebkit, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5dbusaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Recommends: gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly
+Homepage: https://github.com/JBBgameich/Kirigami-VideoPlayer
+Priority: optional
+Section: video
+Filename: pool/main/l/llsvplayer/llsvplayer_0.3+git20181020-1_arm64.deb
+Size: 24400
+SHA256: 2f232d5f65e06833caba788628a797b91ad8868988b24a085b68419023ed23ea
+SHA1: 4c4d581d50517445132488513fd85bd652d38df7
+MD5sum: b5d074d2ba698729022c7c14985f1ca1
+Description: Simple media player based on the Gstreamer Framework and
+ Plasma aswell as QtQuick.
+
