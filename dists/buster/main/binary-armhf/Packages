@@ -1,3 +1,25 @@
+Package: audioflingerglue-dev
+Source: audioflingerglue
+Version: 0.0.8-1
+Architecture: all
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 14
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/audioflingerglue/audioflingerglue-dev_0.0.8-1_all.deb
+Size: 2380
+SHA256: 6cd319c67aa9bae0a44921e70e53c315169eea2bd66859aa1fd15a75522a6c48
+SHA1: e03eed9fbda1f9f7acdeb5238d73279598d97967
+MD5sum: df34f2f46333eedbae8e1549f60bf4a4
+Description: Audioflinger glue
+ Simple service that replaces AudioFlinger
+ and library for forwarding calls made to custom AudioFlinger to client
+ .
+ This package contains only the headers
+ .
+ The other half of audioflingerglue is build into the android image.
+
 Package: buho
 Version: 0+git20181020-1
 Architecture: armhf
