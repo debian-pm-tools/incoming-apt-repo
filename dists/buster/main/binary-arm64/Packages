@@ -95,6 +95,264 @@ Description: KDE window manager data files
  .
  This package contains the data files
 
+Package: libandroid-properties-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 46
+Depends: libandroid-properties1 (= 0.1.0+git20180625-1)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+git20180625-1_arm64.deb
+Size: 16660
+SHA256: 561a073e8e9ce9d1cc929aa8c6ed2a839269a7e3baaf95d4417ee6ec969b4c03
+SHA1: 0dfc2afe709c8dcc8803b35b4645c14c96c92852
+MD5sum: 389d2c84ace2292e7ac1c43abcfae95e
+Description: Development headers files for libandroid-properties
+ Contains the development files for use in applications that wants to get,
+ set or list the Android properties.
+
+Package: libandroid-properties1
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 56
+Depends: libc6 (>= 2.17)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+git20180625-1_arm64.deb
+Size: 20840
+SHA256: 48e3d471b44011a810b104443320f8a9a2e2c073070b999240489cb80145a9bf
+SHA1: c40d681121592d81e5d295d0e32565581c5e1ee6
+MD5sum: 37b12d964c6e6780456e0b177be4f06c
+Description: Library to provide access to get, set and list Android properties
+ Contains a library that provides access to get, set and list Android
+ properties, which can be used by any Ubuntu app that needs to probe
+ for properties (gps, modem, device specifics).
+
+Package: libhardware-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 41
+Depends: android-headers (>= 4.4.2), libhardware2 (= 0.1.0+git20180625-1)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+git20180625-1_arm64.deb
+Size: 16204
+SHA256: c5eb79804c6749b8a4e18ea6ff87362e72fc6651321200854d0558c885ff5439
+SHA1: 63c34bc360c490b8388765a49ffa4b1aabca47fc
+MD5sum: 86c256519d7efba0f493eba2cdff6908
+Description: Development files for libhardware
+ Contains the development files for the Android libhardware HAL, which can
+ be used to access a wide range of other HALs, such as audio, power,
+ gralloc, etc.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhardware2
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 47
+Depends: libc6 (>= 2.17), libhybris-common1
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libhardware2_0.1.0+git20180625-1_arm64.deb
+Size: 17696
+SHA256: 9116a243afd96bc61d39534495e47cbc4e014a0290ff058226585bb8c95c9cd1
+SHA1: 6f42f18d8f41e1c7e4151f42e967ce50a54e754f
+MD5sum: 97d9bedbf6d549ea1576f809614221e5
+Description: Library to provide access to the Android libhardware HAL
+ Contains a library that provides access to the Android libhardware HAL,
+ which can be used to access a wide range of other HALs, such as audio,
+ power, gralloc, etc.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 637
+Depends: libandroid-properties1 (= 0.1.0+git20180625-1), libhardware2, libmedia1, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libhybris_0.1.0+git20180625-1_arm64.deb
+Size: 111212
+SHA256: b14985fc2eb73853bb93f92dcb9bf9223455bd3f42c1e424a2ae47a20fca4c01
+SHA1: 4ffdf9481d458fb4dc5b24418e7747d4b0d4dd72
+MD5sum: 309705510614adb43e6ad19774cbd098
+Description: Allows to run bionic-based HW adaptations in glibc systems - libs
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 39
+Depends: libhybris-common1 (= 0.1.0+git20180625-1)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+git20180625-1_arm64.deb
+Size: 15956
+SHA256: 54dbb43dbd817a57dfb60676a05bc49050706cc1ed428bf796308f45df7601b5
+SHA1: 44b166a8c0376042f710ddc54b3db2569baad639
+MD5sum: d4070baf220fa01966543d60bac05af3
+Description: Development files for libhybris-common
+ Contains the development files for the common library that contains the
+ Android linker, used to dynamically load and use symbols from Android
+ based libraries.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common1
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 522
+Depends: libandroid-properties1, libc6 (>> 2.27), libc6 (<< 2.28), libgcc1 (>= 1:4.2), libstdc++6 (>= 5.2)
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+git20180625-1_arm64.deb
+Size: 126044
+SHA256: be85eefd8852256d43d2be68c3a3e5ba0cc840c7aa9fff6528c1a3ce6605eecc
+SHA1: af9660797c70b914125e8b2e9c8d4c164f1ccdc6
+MD5sum: d56f53135816fa8f5bf9831e1503e7d2
+Description: Common library that contains the Android linker and custom hooks
+ Contains a common library that contains the Android linker, used to
+ dynamically load and use symbols from Android based libraries.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 181
+Depends: android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+git20180625-1), libgles2-mesa-dev, libhardware-dev (= 0.1.0+git20180625-1), libhybris (= 0.1.0+git20180625-1), libhybris-common-dev (= 0.1.0+git20180625-1), libmedia-dev (= 0.1.0+git20180625-1)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+git20180625-1_arm64.deb
+Size: 34752
+SHA256: fd8bba343736ddcb013a196cf2acde2b89cfc8644c0ccbc756467c7b11aeac79
+SHA1: ec81ea3b16ee6a004002e9e498a63553c18b3124
+MD5sum: 531b379c237480e446f04e0225e8ed1b
+Description: Development headers and libraries for libhybris
+ Contains the header files for use in developing applications that use
+ the libhybris library.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-test
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 272
+Depends: libhybris (= 0.1.0+git20180625-1), libc6 (>= 2.17), libgcc1 (>= 1:3.0), libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5)
+Priority: extra
+Section: devel
+Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+git20180625-1_arm64.deb
+Size: 52264
+SHA256: 7b1d1e2eef71cce85f141d7d1c1c16314e7cc144716d88d78fd5f281dcf8de7f
+SHA1: 5c14a49e7b5d0b55770fa244be0ea32cc6d1c30a
+MD5sum: 8e9ad3ce73dfa2be2db18bd03179327b
+Description: Allows to run bionic-based HW adaptations in glibc systems - tests
+ Contains the test applications used to validate libhybris (needs Android
+ libraries or container).
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-utils
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 61
+Depends: libhybris (= 0.1.0+git20180625-1), libandroid-properties1, libc6 (>= 2.17)
+Priority: extra
+Section: utils
+Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+git20180625-1_arm64.deb
+Size: 20684
+SHA256: dc3cfb5569ac97f431231c6aa7091b9a2c479a01f01a4a8db16ff760e28dc086
+SHA1: 21a8ee1565332861d48dd7306fb8aa37e6480b02
+MD5sum: 6eed0a9b348c28a4e1f9470845863036
+Description: Utilities to help working with the Android HW abstraction layer
+ Contains utilities used to help working with Android HW abstraction layer.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libmedia-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 85
+Depends: android-headers (>= 4.4.2), libmedia1 (= 0.1.0+git20180625-1)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+git20180625-1_arm64.deb
+Size: 21308
+SHA256: 7d1852c10c9f885f16797ce5fc5f5945add819b4e0323493a0597b909a5f0e2f
+SHA1: 245029defe5e0d239f12cfe57cd1ba173d1ffbba
+MD5sum: 7fbce1d7be9e1f60eb0f28419e1c56f4
+Description: Development files for libmedia
+ Contains the development files for the Android Media HAL, which
+ abstract the access to the Android libstagefright based decoders.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libmedia1
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 103
+Depends: libc6 (>= 2.17), libhybris-common1
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libmedia1_0.1.0+git20180625-1_arm64.deb
+Size: 25812
+SHA256: b4d66b23eadf75ed1307d772caae9e47373dd16af1ec9baff6e855a737c7c425
+SHA1: 69221a89c75ac161fcb337f1d092d665f3337e43
+MD5sum: f8f11fafa6c3e0f4e1e2711bdd4a0cd4
+Description: Library to provide access to the Android Media HAL
+ Contains a library that provides access to the Android Media HAL,
+ which abstract the access to the Android libstagefright based
+ decoders.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
 Package: libpulse-dev
 Source: pulseaudio
 Version: 12.2-2
