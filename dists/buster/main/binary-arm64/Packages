@@ -582,6 +582,42 @@ Description: Kit for developing MAUI Apps.
  .
  This package contains mauikit development files
 
+Package: nemo-gstreamer1.0-interfaces
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 32
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.14.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0)
+Homepage: https://git.merproject.org/mer-core/nemo-gst-interfaces
+Priority: optional
+Section: libs
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces_0.20150126.0-1_arm64.deb
+Size: 5900
+SHA256: b163bbabae6aa085c9fab316620dc10da8927f96575b54ba02bf09ab5eb0944e
+SHA1: bf113e157624e88958c337a64923ff4591c44ed5
+MD5sum: a33caf2fc0c099458fe3741b430729c3
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces
+
+Package: nemo-gstreamer1.0-interfaces-dev
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 28
+Depends: nemo-gstreamer1.0-interfaces (= 0.20150126.0-1)
+Homepage: https://git.merproject.org/mer-core/nemo-gst-interfaces
+Priority: optional
+Section: libdevel
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces-dev_0.20150126.0-1_arm64.deb
+Size: 3996
+SHA256: 97e7e5b61c64c407713b451380890b4d620cd98c0b087b0bb297e779babde2f3
+SHA1: 6101ff7c68213b193e27abda294415f694c84fef
+MD5sum: 8ae3283d35f6e280fe0a606e7f9e8cca
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces
+
 Package: pix
 Version: 0+git20181020-1
 Architecture: arm64
