@@ -643,6 +643,42 @@ MD5sum: 23ba497e0d01c9e0aa4c6a37e1bef4f5
 Description: Simple media player based on the Gstreamer Framework and
  Plasma aswell as QtQuick.
 
+Package: nemo-gstreamer1.0-interfaces
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Architecture: armhf
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 27
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.14.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0)
+Homepage: https://git.merproject.org/mer-core/nemo-gst-interfaces
+Priority: optional
+Section: libs
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces_0.20150126.0-1_armhf.deb
+Size: 5336
+SHA256: 4a85121148033cce49be1dd03110bfed2cc06797864734a1ff18878746f28852
+SHA1: 2df3dc510bbe389c08217ff0a2bf7c7035d7f5e2
+MD5sum: 66d900183effd6773dc16169c93d2969
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces
+
+Package: nemo-gstreamer1.0-interfaces-dev
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Architecture: armhf
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 28
+Depends: nemo-gstreamer1.0-interfaces (= 0.20150126.0-1)
+Homepage: https://git.merproject.org/mer-core/nemo-gst-interfaces
+Priority: optional
+Section: libdevel
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces-dev_0.20150126.0-1_armhf.deb
+Size: 3996
+SHA256: 3df8886a5ae5aa36d371854ffd2db4b570acbcef9505b5cbae5185b440790383
+SHA1: 82904487e9dba39ea9870308400cf6a02b16e0a3
+MD5sum: c766627f05aaa93a0c87605b524d88e1
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces
+
 Package: pix
 Version: 0+git20181020-1
 Architecture: armhf
